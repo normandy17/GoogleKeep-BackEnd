@@ -1,0 +1,28 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "seeder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Charleson Davis",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.1",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.3.0",
+    "express-validator": "^6.9.2",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "redis": "^3.0.2",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "12.18.3"
+  }
+}
